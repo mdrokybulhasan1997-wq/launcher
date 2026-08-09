@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dockContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@drawable/dock_background">
+
+        <ImageButton
+            android:id="@+id/dock_slot_0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/slot_background"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            android:contentDescription="@string/empty_slot" />
+
+        <ImageButton
+            android:id="@+id/dock_slot_1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/slot_background"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            android:contentDescription="@string/empty_slot" />
+
+        <ImageButton
+            android:id="@+id/dock_slot_2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/slot_background"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            android:contentDescription="@string/empty_slot" />
+
+        <ImageButton
+            android:id="@+id/dock_slot_3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/slot_background"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            android:contentDescription="@string/empty_slot" />
+
+    </LinearLayout>
+
+</FrameLayout>

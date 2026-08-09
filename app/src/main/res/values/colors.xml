@@ -1,0 +1,5 @@
+<resources>
+    <color name="dock_bg">#66000000</color>
+    <color name="slot_bg">#33FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

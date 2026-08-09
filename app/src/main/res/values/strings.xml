@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dock Launcher</string>
+    <string name="pick_app">Choose an app</string>
+    <string name="replace">Replace</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_slot">Tap to add app</string>
+</resources>
